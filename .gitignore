@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Training outputs / large generated files
+checkpoints/
+*_checkpoints/
+fl_checkpoints/
+fl_tuned/
+fl_full_matrix/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Dataset files (download separately; do not commit)
+data/
+datasets/
+*.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
